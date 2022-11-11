@@ -1,34 +1,28 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML e PHP</title>
-</head>
-<body>
-
 <?php
 
-    //Aprensentação na tela
+    //DEFININDO UMA VARIÁVEL DE FORMA ERRADA
+    /*
 
-    echo "Hello World \n";
+    $1var = 0;
+    $!var = 0;
+    $var(1) = 0;
+    $var um = 0;
+    $var-um = 0;
 
-?>
-    
-    <br>
+    */
 
-<?php  echo ("Hello World \n"); ?>
+    //DEFININDO DO JEITO CERTO
 
-    <br>
+    $var = 10;
+    $var_um = 20;
+    $varUm = 30;
+    $_um = 40;
+    $_1 = 50;
 
-<?php echo 'Hello World'. "\n"; ?>
+    echo $var;
+    echo $var_um;
+    echo $varUm;
+    echo $_um;
+    echo $_1;
 
-    <br>
-
-<?php print "Opa sô \n" ?>
-    
-    
-</body>
-</html>
 ?>
